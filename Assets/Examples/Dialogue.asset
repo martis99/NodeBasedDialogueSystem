@@ -1,0 +1,1148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8588297682591864609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: dd724abe-abc9-48df-81c9-3320f7f0c4af
+  Position: {x: 4260.1245, y: 1731.7379}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 89e3f676-00f2-40b1-9887-1e65230a335e
+  Text: How those cats looked?
+--- !u!114 &-8347078281691644744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 48c79388-027e-4595-a1fd-cd4d34faabe6
+  Position: {x: 4213.5894, y: 3437.1956}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - f437b295-4bb1-40ed-99a7-658e4125faec
+  Text: Big
+--- !u!114 &-8226543801790791569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: cbc7560e-4282-48ae-b6d0-a6a9c1207b4e
+  Position: {x: 3041.5889, y: 3478.1958}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - 75f5a211-0c10-415a-a008-dc18ba385e4e
+  Text: Bird flew away
+  Choice: 
+--- !u!114 &-8067330004353611553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: c930dfe3-2592-4016-8a93-b2a91089ad25
+  Position: {x: 3190.3552, y: 2241.9624}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - 2cde4c1a-e8de-4793-9a14-d5bd441053ca
+  Text: White
+  Choice: 
+--- !u!114 &-6920062922937630640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: f437b295-4bb1-40ed-99a7-658e4125faec
+  Position: {x: 4610.5894, y: 3439.1958}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - b190bc1e-0c28-4de3-9dd5-6e892a20e633
+  Text: It was a big cat
+  Choice: 
+--- !u!114 &-6737050129364971679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 8df52625-c48a-4222-bef1-7a7eca479ea6
+  Position: {x: 2766.7102, y: 2636.485}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 88e74e79-99a7-4f5a-82de-38f910bc6b76
+  Text: When did you saw that cat?
+--- !u!114 &-6718574769476732073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 1d5d20b5-8811-4680-85ed-625877e872f4
+  Position: {x: 2765.1245, y: 1787.7379}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - fa6a5186-f47f-4737-bc85-af61e236cd7d
+  Text: Cat
+--- !u!114 &-6547842505546644578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 829f5777-7bef-4eef-a949-af38a28b4dfe
+  Position: {x: 3942.8262, y: 2551.764}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices: []
+  Text: It ran into vegetable store
+  Choice: 
+--- !u!114 &-6369140939986961555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: cc3b14ae-a880-4263-8db6-18dbe46f3f83
+  Position: {x: 4609.589, y: 3681.1958}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices: []
+  Text: No, it was big cat
+  Choice: 
+--- !u!114 &-5824318004840763146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: e2b2aa8a-2402-400e-8c82-e188ae0d6e50
+  Position: {x: 1814.7015, y: 2569.2327}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 7fbbc283-e35a-4ae1-a264-e453ccc23dc6
+  Text: Have you seen any animals?
+--- !u!114 &-5789382902320110992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 89e3f676-00f2-40b1-9887-1e65230a335e
+  Position: {x: 4666.124, y: 1733.7379}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - bae85c51-5d21-4295-8447-d9c9c148a305
+  Text: They were both white
+  Choice: 
+--- !u!114 &-5309051318452646115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 7bab567d-158a-46a0-bb9b-ed5c49a10cd7
+  Position: {x: 2768, y: 2244}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - c930dfe3-2592-4016-8a93-b2a91089ad25
+  Text: What color was that cat?
+--- !u!114 &-5154522648887302582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 62b1bf68-568d-46a3-b86d-c589851d0227
+  Position: {x: 3123.1245, y: 1999.7379}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - ea8e8cd1-0d66-435f-a081-6757df2359ee
+  Text: No I didn't saw a bird
+  Choice: 
+--- !u!114 &-5145034575260190920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 1b464d63-ccb5-4805-bd20-b25dc5e250bf
+  Position: {x: 4608.5884, y: 3180.1958}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices: []
+  Text: No, It was white
+  Choice: 
+--- !u!114 &-3904562944436971828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 21679e58-1bf6-4a04-81e8-bcdd3956cf99
+  Position: {x: 4665.124, y: 2172.738}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - bae85c51-5d21-4295-8447-d9c9c148a305
+  Text: About an hour ago
+  Choice: 
+--- !u!114 &-3833577472276408328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 3418ed56-db6c-401e-a525-2432454c48a6
+  Position: {x: 3756.5889, y: 3317.196}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - f366f34c-ea7b-4bb7-8092-8c195cafdf81
+  - 03405717-5cd0-4f3f-94db-427b31e28fb1
+  - 48c79388-027e-4595-a1fd-cd4d34faabe6
+  - 6ef77e33-fdaa-4523-a7ce-cbbc0e588526
+  Text: What cat is it?
+  Choice: 
+--- !u!114 &-3749208328156611199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: b325a16a-70b9-4f23-8ffb-053f43c006a5
+  Position: {x: 2769.6777, y: 2841.875}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 200642f1-ffda-4a13-9b6f-b540e83cbdb8
+  Text: Is this cat still here?
+--- !u!114 &-3703888882775412499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: ea8e8cd1-0d66-435f-a081-6757df2359ee
+  Position: {x: 3515.1245, y: 2001.7379}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 2ee15b59-7264-4c20-8661-8ab6b9fba63e
+  Text: Did you saw a cat?
+--- !u!114 &-3438220133472322817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 97d05628-d9da-46b8-a323-00169420a7d3
+  Position: {x: 2765.1245, y: 1998.7379}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 62b1bf68-568d-46a3-b86d-c589851d0227
+  Text: Bird
+--- !u!114 &-3291286952533000179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 200642f1-ffda-4a13-9b6f-b540e83cbdb8
+  Position: {x: 3199.0327, y: 2845.1326}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - 2cde4c1a-e8de-4793-9a14-d5bd441053ca
+  Text: Yes
+  Choice: 
+--- !u!114 &-2913630044496819694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 6ef77e33-fdaa-4523-a7ce-cbbc0e588526
+  Position: {x: 4218.589, y: 3683.1956}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - cc3b14ae-a880-4263-8db6-18dbe46f3f83
+  Text: Small
+--- !u!114 &-2834161694541128425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: e712aaca-496a-40be-8dc7-987ac637a395
+  Position: {x: 2258.589, y: 3305.1958}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - 75f5a211-0c10-415a-a008-dc18ba385e4e
+  - 3da4a875-2aff-479e-ad29-3b784f2c20e3
+  Text: I saw a bird and a cat running after it
+  Choice: 
+--- !u!114 &-2280028822545820924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: f192a575-1b99-42d4-8046-53a8f45bd777
+  Position: {x: 2769.0005, y: 2430.7725}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - ed72768f-1ab4-47b7-b7aa-45ebc15c1552
+  Text: How big was that cat?
+--- !u!114 &-1895532136799103157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: bae85c51-5d21-4295-8447-d9c9c148a305
+  Position: {x: 5033.124, y: 1952.7379}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 94d0ada8-b5c6-48d6-bfde-68399d0d0979
+  Text: Where did those cat went?
+--- !u!114 &-1567853707170831746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e114c3faf7f12f444ab3a1ad3938b24f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 111eb766-6a55-49e2-9132-22ad5bc5526b
+  Position: {x: 1226.1641, y: 1790.5718}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 30f4d36b-df46-4476-9833-acb75fa64375
+  Name: Dave
+--- !u!114 &-959617673624313053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 1f614acd-2144-472c-ae3f-2ad0474685f3
+  Position: {x: 2313.1245, y: 1789.7379}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - 677ee342-8f67-4dd5-9fb8-c2a36e9c2b9e
+  - 1d5d20b5-8811-4680-85ed-625877e872f4
+  - 97d05628-d9da-46b8-a323-00169420a7d3
+  Text: I saw a few animals, what are you interested in?
+  Choice: 
+--- !u!114 &-441510445002948482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 75f5a211-0c10-415a-a008-dc18ba385e4e
+  Position: {x: 3393.5889, y: 3318.1958}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 3418ed56-db6c-401e-a525-2432454c48a6
+  Text: I am looking for my cat
+--- !u!114 &-385046295038802417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e114c3faf7f12f444ab3a1ad3938b24f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 8c62f93d-c246-4cf0-958f-a922aa7eeff5
+  Position: {x: 1187.4348, y: 2567.4966}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 2b8977b1-ff64-40d1-9a9e-b2bd45f031b2
+  Name: Bob
+--- !u!114 &-41280047743852428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 3e6b69db-09b2-440d-93ab-eef31e8a1432
+  Position: {x: 3127.1245, y: 1582.7382}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - ea8e8cd1-0d66-435f-a081-6757df2359ee
+  Text: No, I didn't saw a dog
+  Choice: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b76e1a84ef23d6b4aa6a5dd74ffb2644, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Nodes:
+    list:
+    - Key: 111eb766-6a55-49e2-9132-22ad5bc5526b
+      Value: {fileID: -1567853707170831746}
+    - Key: 30f4d36b-df46-4476-9833-acb75fa64375
+      Value: {fileID: 1029746394928995742}
+    - Key: b0a4be6a-5970-4727-9804-005028bf6d6c
+      Value: {fileID: 3198848528557808466}
+    - Key: 1f614acd-2144-472c-ae3f-2ad0474685f3
+      Value: {fileID: -959617673624313053}
+    - Key: 677ee342-8f67-4dd5-9fb8-c2a36e9c2b9e
+      Value: {fileID: 5360493894799539691}
+    - Key: 1d5d20b5-8811-4680-85ed-625877e872f4
+      Value: {fileID: -6718574769476732073}
+    - Key: 97d05628-d9da-46b8-a323-00169420a7d3
+      Value: {fileID: -3438220133472322817}
+    - Key: 3e6b69db-09b2-440d-93ab-eef31e8a1432
+      Value: {fileID: -41280047743852428}
+    - Key: ea8e8cd1-0d66-435f-a081-6757df2359ee
+      Value: {fileID: -3703888882775412499}
+    - Key: fa6a5186-f47f-4737-bc85-af61e236cd7d
+      Value: {fileID: 6214056491999324790}
+    - Key: 62b1bf68-568d-46a3-b86d-c589851d0227
+      Value: {fileID: -5154522648887302582}
+    - Key: dd724abe-abc9-48df-81c9-3320f7f0c4af
+      Value: {fileID: -8588297682591864609}
+    - Key: bae85c51-5d21-4295-8447-d9c9c148a305
+      Value: {fileID: -1895532136799103157}
+    - Key: 89e3f676-00f2-40b1-9887-1e65230a335e
+      Value: {fileID: -5789382902320110992}
+    - Key: 94d0ada8-b5c6-48d6-bfde-68399d0d0979
+      Value: {fileID: 421977539623420036}
+    - Key: 2ee15b59-7264-4c20-8661-8ab6b9fba63e
+      Value: {fileID: 5500425317190947173}
+    - Key: 004985c2-eb4e-4fc8-adc6-3665fbd1028b
+      Value: {fileID: 6575701478906508824}
+    - Key: 21679e58-1bf6-4a04-81e8-bcdd3956cf99
+      Value: {fileID: -3904562944436971828}
+    - Key: 8c62f93d-c246-4cf0-958f-a922aa7eeff5
+      Value: {fileID: -385046295038802417}
+    - Key: 2b8977b1-ff64-40d1-9a9e-b2bd45f031b2
+      Value: {fileID: 770897236490214788}
+    - Key: e2b2aa8a-2402-400e-8c82-e188ae0d6e50
+      Value: {fileID: -5824318004840763146}
+    - Key: 7fbbc283-e35a-4ae1-a264-e453ccc23dc6
+      Value: {fileID: 897364371483990642}
+    - Key: 7bab567d-158a-46a0-bb9b-ed5c49a10cd7
+      Value: {fileID: -5309051318452646115}
+    - Key: f192a575-1b99-42d4-8046-53a8f45bd777
+      Value: {fileID: -2280028822545820924}
+    - Key: 8df52625-c48a-4222-bef1-7a7eca479ea6
+      Value: {fileID: -6737050129364971679}
+    - Key: b325a16a-70b9-4f23-8ffb-053f43c006a5
+      Value: {fileID: -3749208328156611199}
+    - Key: c930dfe3-2592-4016-8a93-b2a91089ad25
+      Value: {fileID: -8067330004353611553}
+    - Key: ed72768f-1ab4-47b7-b7aa-45ebc15c1552
+      Value: {fileID: 1776715000345252150}
+    - Key: 88e74e79-99a7-4f5a-82de-38f910bc6b76
+      Value: {fileID: 8922691387392995569}
+    - Key: 200642f1-ffda-4a13-9b6f-b540e83cbdb8
+      Value: {fileID: -3291286952533000179}
+    - Key: e490d83a-6260-4488-bc49-ab4e0659cc38
+      Value: {fileID: 4190432977581749427}
+    - Key: 9ea5c88c-be59-451f-8b3c-95405d9c6092
+      Value: {fileID: 1609653458860191045}
+    - Key: e712aaca-496a-40be-8dc7-987ac637a395
+      Value: {fileID: -2834161694541128425}
+    - Key: bb627844-b18d-4aaf-9fa9-9fe0e608414a
+      Value: {fileID: 8577547455153984019}
+    - Key: 75f5a211-0c10-415a-a008-dc18ba385e4e
+      Value: {fileID: -441510445002948482}
+    - Key: 3da4a875-2aff-479e-ad29-3b784f2c20e3
+      Value: {fileID: 7616880583503231997}
+    - Key: cbc7560e-4282-48ae-b6d0-a6a9c1207b4e
+      Value: {fileID: -8226543801790791569}
+    - Key: 3418ed56-db6c-401e-a525-2432454c48a6
+      Value: {fileID: -3833577472276408328}
+    - Key: f366f34c-ea7b-4bb7-8092-8c195cafdf81
+      Value: {fileID: 8686763526844965484}
+    - Key: 03405717-5cd0-4f3f-94db-427b31e28fb1
+      Value: {fileID: 4069680170937472929}
+    - Key: 48c79388-027e-4595-a1fd-cd4d34faabe6
+      Value: {fileID: -8347078281691644744}
+    - Key: 6ef77e33-fdaa-4523-a7ce-cbbc0e588526
+      Value: {fileID: -2913630044496819694}
+    - Key: cc3b14ae-a880-4263-8db6-18dbe46f3f83
+      Value: {fileID: -6369140939986961555}
+    - Key: f437b295-4bb1-40ed-99a7-658e4125faec
+      Value: {fileID: -6920062922937630640}
+    - Key: 1b464d63-ccb5-4805-bd20-b25dc5e250bf
+      Value: {fileID: -5145034575260190920}
+    - Key: 9238d452-d5fb-45ae-9004-405090786adb
+      Value: {fileID: 2059284243850860661}
+    - Key: b190bc1e-0c28-4de3-9dd5-6e892a20e633
+      Value: {fileID: 1915390096442607769}
+    - Key: 74b90d2a-2335-4579-ad7e-c3e8387bcf4c
+      Value: {fileID: 4188335411890358316}
+    - Key: 2cde4c1a-e8de-4793-9a14-d5bd441053ca
+      Value: {fileID: 6394001813787791413}
+    - Key: 829f5777-7bef-4eef-a949-af38a28b4dfe
+      Value: {fileID: -6547842505546644578}
+--- !u!114 &421977539623420036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 94d0ada8-b5c6-48d6-bfde-68399d0d0979
+  Position: {x: 5386.124, y: 1955.7379}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices: []
+  Text: One ran to the bookstore, another ran to the shoestore
+  Choice: 
+--- !u!114 &770897236490214788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 2b8977b1-ff64-40d1-9a9e-b2bd45f031b2
+  Position: {x: 1460.7015, y: 2568.2327}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - e2b2aa8a-2402-400e-8c82-e188ae0d6e50
+  Text: How can I help you?
+  Choice: 
+--- !u!114 &897364371483990642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 7fbbc283-e35a-4ae1-a264-e453ccc23dc6
+  Position: {x: 2238.7014, y: 2567.2327}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - 7bab567d-158a-46a0-bb9b-ed5c49a10cd7
+  - f192a575-1b99-42d4-8046-53a8f45bd777
+  - 8df52625-c48a-4222-bef1-7a7eca479ea6
+  - b325a16a-70b9-4f23-8ffb-053f43c006a5
+  Text: I saw one cat, which ran into my shop
+  Choice: 
+--- !u!114 &1029746394928995742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 30f4d36b-df46-4476-9833-acb75fa64375
+  Position: {x: 1492.1246, y: 1790.7379}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - b0a4be6a-5970-4727-9804-005028bf6d6c
+  Text: How can I help you?
+  Choice: 
+--- !u!114 &1609653458860191045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 9ea5c88c-be59-451f-8b3c-95405d9c6092
+  Position: {x: 1472.5892, y: 3304.1958}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - bb627844-b18d-4aaf-9fa9-9fe0e608414a
+  Text: How can I assist you?
+  Choice: 
+--- !u!114 &1776715000345252150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: ed72768f-1ab4-47b7-b7aa-45ebc15c1552
+  Position: {x: 3194.6453, y: 2434.45}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - 2cde4c1a-e8de-4793-9a14-d5bd441053ca
+  Text: Small
+  Choice: 
+--- !u!114 &1915390096442607769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: b190bc1e-0c28-4de3-9dd5-6e892a20e633
+  Position: {x: 5034.589, y: 3176.1958}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 74b90d2a-2335-4579-ad7e-c3e8387bcf4c
+  Text: Where is it now?
+--- !u!114 &2059284243850860661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 9238d452-d5fb-45ae-9004-405090786adb
+  Position: {x: 4605.5884, y: 2936.1958}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - b190bc1e-0c28-4de3-9dd5-6e892a20e633
+  Text: It was a white cat
+  Choice: 
+--- !u!114 &3198848528557808466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: b0a4be6a-5970-4727-9804-005028bf6d6c
+  Position: {x: 1874.1246, y: 1789.7379}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 1f614acd-2144-472c-ae3f-2ad0474685f3
+  Text: Have you seen any animals?
+--- !u!114 &4069680170937472929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 03405717-5cd0-4f3f-94db-427b31e28fb1
+  Position: {x: 4208.5884, y: 3182.1956}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 1b464d63-ccb5-4805-bd20-b25dc5e250bf
+  Text: Black
+--- !u!114 &4188335411890358316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 74b90d2a-2335-4579-ad7e-c3e8387bcf4c
+  Position: {x: 5401.5894, y: 3177.1958}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices: []
+  Text: It ran into vegetable store
+  Choice: 
+--- !u!114 &4190432977581749427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e114c3faf7f12f444ab3a1ad3938b24f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: e490d83a-6260-4488-bc49-ab4e0659cc38
+  Position: {x: 1207.941, y: 3303.9995}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 9ea5c88c-be59-451f-8b3c-95405d9c6092
+  Name: Greg
+--- !u!114 &5360493894799539691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 677ee342-8f67-4dd5-9fb8-c2a36e9c2b9e
+  Position: {x: 2765.1245, y: 1582.7382}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 3e6b69db-09b2-440d-93ab-eef31e8a1432
+  Text: Dog
+--- !u!114 &5500425317190947173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 2ee15b59-7264-4c20-8661-8ab6b9fba63e
+  Position: {x: 3863.1245, y: 1994.7379}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - dd724abe-abc9-48df-81c9-3320f7f0c4af
+  - bae85c51-5d21-4295-8447-d9c9c148a305
+  - 004985c2-eb4e-4fc8-adc6-3665fbd1028b
+  Text: Yes, I saw two cats
+  Choice: 
+--- !u!114 &6214056491999324790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: fa6a5186-f47f-4737-bc85-af61e236cd7d
+  Position: {x: 3123.1245, y: 1791.7379}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - dd724abe-abc9-48df-81c9-3320f7f0c4af
+  - bae85c51-5d21-4295-8447-d9c9c148a305
+  Text: Yes, I saw two cats
+  Choice: 
+--- !u!114 &6394001813787791413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 2cde4c1a-e8de-4793-9a14-d5bd441053ca
+  Position: {x: 3586.8262, y: 2551.764}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 829f5777-7bef-4eef-a949-af38a28b4dfe
+  Text: Where is it now?
+--- !u!114 &6575701478906508824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 004985c2-eb4e-4fc8-adc6-3665fbd1028b
+  Position: {x: 4237.1245, y: 2173.738}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 21679e58-1bf6-4a04-81e8-bcdd3956cf99
+  Text: When did you saw those cats?
+--- !u!114 &7616880583503231997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 3da4a875-2aff-479e-ad29-3b784f2c20e3
+  Position: {x: 2691.5889, y: 3478.1958}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - cbc7560e-4282-48ae-b6d0-a6a9c1207b4e
+  Text: I am looking for a bird
+--- !u!114 &8577547455153984019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: bb627844-b18d-4aaf-9fa9-9fe0e608414a
+  Position: {x: 1825.5891, y: 3304.1958}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - e712aaca-496a-40be-8dc7-987ac637a395
+  Text: Have you seen any animals?
+--- !u!114 &8686763526844965484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4abfcbae1e1ab4c8be41e25f59154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: f366f34c-ea7b-4bb7-8092-8c195cafdf81
+  Position: {x: 4224.589, y: 2937.1956}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Questions:
+  - 9238d452-d5fb-45ae-9004-405090786adb
+  Text: White
+--- !u!114 &8922691387392995569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961f0ba26aba23a469a4a2d2ebfdd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 88e74e79-99a7-4f5a-82de-38f910bc6b76
+  Position: {x: 3199.6128, y: 2636.485}
+  GroupID: 
+  State: 0
+  CurrentState: 0
+  Choices:
+  - 2cde4c1a-e8de-4793-9a14-d5bd441053ca
+  Text: About half an hour ago
+  Choice: 
