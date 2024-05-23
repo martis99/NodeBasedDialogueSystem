@@ -1,0 +1,16 @@
+{
+    "name": "NodeBasedDialogueSystem.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:46ccdc594e7b70746b60698dc5850eb4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

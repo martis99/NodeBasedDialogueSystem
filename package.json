@@ -1,0 +1,19 @@
+{
+  "name": "martis99.node-based-dialogue-system",
+  "version": "1.0.1",
+  "displayName": "Node Based Dialogue System",
+  "description": "Node based dialogue system.",
+  "samples": [
+    {
+      "displayName": "Dialogue Demo",
+      "description": "A simple example of dialogue",
+      "path": "Samples~/DialogueDemo",
+      "dependencies": { "com.unity.textmeshpro": "3.0.9" }
+    }
+  ],
+  "category": "Visual Scripting",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martis99/NodeBasedDialogueSystem.git"
+  }
+}
