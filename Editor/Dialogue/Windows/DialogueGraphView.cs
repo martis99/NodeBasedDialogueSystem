@@ -260,8 +260,8 @@ namespace Dialogue.Windows
         private void AddStyles()
         {
             this.AddStyleSheets(
-                "Dialogue/DialogueGraphViewStyles.uss",
-                "Dialogue/DialogueNodeStyles.uss"
+                "Packages/martis99.node-based-dialogue-system/Editor Default Resources/Dialogue/DialogueGraphViewStyles.uss",
+                "Packages/martis99.node-based-dialogue-system/Editor Default Resources/Dialogue/DialogueNodeStyles.uss"
             );
         }
 

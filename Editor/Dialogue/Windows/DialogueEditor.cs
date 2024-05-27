@@ -61,7 +61,7 @@ namespace Dialogue.Windows
         private void AddStyles()
         {
             rootVisualElement.AddStyleSheets(
-                "Dialogue/DialogueVariables.uss"
+                "Packages/martis99.node-based-dialogue-system/Editor Default Resources/Dialogue/DialogueVariables.uss"
             );
         }
     }
