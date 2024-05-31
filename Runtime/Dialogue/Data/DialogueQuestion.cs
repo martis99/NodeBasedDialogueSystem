@@ -5,12 +5,24 @@ using System.Linq;
 
 namespace Dialogue.Data
 {
+    /// <summary>
+    /// Question node data
+    /// </summary>
     public class DialogueQuestion : DialogueInteract
     {
+        /// <summary>
+        /// List of available choices
+        /// </summary>
         public List<string> Choices;
 
+        /// <summary>
+        /// Question
+        /// </summary>
         public string Text;
 
+        /// <summary>
+        /// Selected choice ID
+        /// </summary>
         public string Choice;
 
         public DialogueQuestion() : base()

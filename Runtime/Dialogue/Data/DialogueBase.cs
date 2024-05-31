@@ -4,9 +4,19 @@ using UnityEngine;
 
 namespace Dialogue.Data
 {
+    /// <summary>
+    /// Base dialogue data class
+    /// </summary>
     public abstract class DialogueBase : ScriptableObject
     {
+        /// <summary>
+        /// Unique node ID
+        /// </summary>
         public string ID;
+
+        /// <summary>
+        /// Node position
+        /// </summary>
         public Vector2 Position;
 
         public DialogueBase()
@@ -22,16 +32,31 @@ namespace Dialogue.Data
 
         protected abstract T CallNext<T>(DialogueGraph graph, T defaultValue, Func<DialogueBase, T> method);
 
+        /// <summary>
+        /// Retrieves next question
+        /// </summary>
+        /// <param name="graph"></param>
+        /// <returns>Question</returns>
         public virtual DialogueBase GetNextQuestion(DialogueGraph graph)
         {
             return GetQuestion(graph);
         }
 
+        /// <summary>
+        /// Retrieves current question
+        /// </summary>
+        /// <param name="graph"></param>
+        /// <returns>Question</returns>
         public virtual DialogueBase GetQuestion(DialogueGraph graph)
         {
             return CallNext(graph, null, q => q.GetQuestion(graph));
         }
 
+        /// <summary>
+        /// Retrieves currently available choices
+        /// </summary>
+        /// <param name="graph"></param>
+        /// <returns></returns>
         public virtual List<DialogueBase> GetChoices(DialogueGraph graph)
         {
             return new List<DialogueBase>();

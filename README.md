@@ -6,12 +6,12 @@ NodeBasedDialogueSystem is a Unity package designed to facilitate the creation a
 
 ## Features
 
-- Node-based dialogue editor
+- Intuitive Node Editor
+- Branching Dialogues
+- Event driven
 - Nodes grouping
-- Save/load system
+- Save and Load System
 - Undo/redo
-- Unity event for current question change
-- C# API
 
 ## Instalation
 

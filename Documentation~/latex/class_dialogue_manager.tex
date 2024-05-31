@@ -1,0 +1,70 @@
+\doxysection{Dialogue\+Manager Class Reference}
+\hypertarget{class_dialogue_manager}{}\label{class_dialogue_manager}\index{DialogueManager@{DialogueManager}}
+
+
+Top level dialogue manager.  
+
+
+Inheritance diagram for Dialogue\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_dialogue_manager}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_dialogue_manager_ae99a3f045e69fecc66b0c431864cca21}{Get\+Question}} (string person\+\_\+name)
+\begin{DoxyCompactList}\small\item\em Retrieves given person question and available choices and invokes \doxylink{class_dialogue_manager_a9f52c72d27142e586bec97f777c6c2ea}{On\+Question} callback. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_dialogue_manager_a5bb1940732275236a1ba50f27328ed66}{Select\+Choice}} (int id)
+\begin{DoxyCompactList}\small\item\em Selects choice and invokes \doxylink{class_dialogue_manager_a9f52c72d27142e586bec97f777c6c2ea}{On\+Question} callback. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_dialogue_manager_a704165946520a424c29835cd8f459484}\label{class_dialogue_manager_a704165946520a424c29835cd8f459484} 
+\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_graph}{Dialogue\+Graph}} {\bfseries Dialogue}
+\begin{DoxyCompactList}\small\item\em \doxylink{namespace_dialogue}{Dialogue} graph reference. \end{DoxyCompactList}\item 
+\Hypertarget{class_dialogue_manager_a9f52c72d27142e586bec97f777c6c2ea}\label{class_dialogue_manager_a9f52c72d27142e586bec97f777c6c2ea} 
+Unity\+Event$<$ \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_person}{Dialogue\+Person}}, \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_question}{Dialogue\+Question}}, List$<$ \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_choice}{Dialogue\+Choice}} $>$ $>$ {\bfseries On\+Question}
+\begin{DoxyCompactList}\small\item\em Question change event. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Top level dialogue manager. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_dialogue_manager_ae99a3f045e69fecc66b0c431864cca21}\index{DialogueManager@{DialogueManager}!GetQuestion@{GetQuestion}}
+\index{GetQuestion@{GetQuestion}!DialogueManager@{DialogueManager}}
+\doxysubsubsection{\texorpdfstring{GetQuestion()}{GetQuestion()}}
+{\footnotesize\ttfamily \label{class_dialogue_manager_ae99a3f045e69fecc66b0c431864cca21} 
+void Dialogue\+Manager.\+Get\+Question (\begin{DoxyParamCaption}\item[{string}]{person\+\_\+name}{}\end{DoxyParamCaption})}
+
+
+
+Retrieves given person question and available choices and invokes \doxylink{class_dialogue_manager_a9f52c72d27142e586bec97f777c6c2ea}{On\+Question} callback. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em person\+\_\+name} & Name of the person to talk with\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_dialogue_manager_a5bb1940732275236a1ba50f27328ed66}\index{DialogueManager@{DialogueManager}!SelectChoice@{SelectChoice}}
+\index{SelectChoice@{SelectChoice}!DialogueManager@{DialogueManager}}
+\doxysubsubsection{\texorpdfstring{SelectChoice()}{SelectChoice()}}
+{\footnotesize\ttfamily \label{class_dialogue_manager_a5bb1940732275236a1ba50f27328ed66} 
+void Dialogue\+Manager.\+Select\+Choice (\begin{DoxyParamCaption}\item[{int}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Selects choice and invokes \doxylink{class_dialogue_manager_a9f52c72d27142e586bec97f777c6c2ea}{On\+Question} callback. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Choice id\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Dialogue/\+Runtime/Dialogue\+Manager.\+cs\end{DoxyCompactItemize}

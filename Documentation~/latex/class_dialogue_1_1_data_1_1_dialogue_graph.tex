@@ -1,0 +1,63 @@
+\doxysection{Dialogue.\+Data.\+Dialogue\+Graph Class Reference}
+\hypertarget{class_dialogue_1_1_data_1_1_dialogue_graph}{}\label{class_dialogue_1_1_data_1_1_dialogue_graph}\index{Dialogue.Data.DialogueGraph@{Dialogue.Data.DialogueGraph}}
+
+
+\doxylink{namespace_dialogue}{Dialogue} graph data.  
+
+
+Inheritance diagram for Dialogue.\+Data.\+Dialogue\+Graph\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_dialogue_1_1_data_1_1_dialogue_graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_graph_acf25249d70c2184ae481df4337d4d596}\label{class_dialogue_1_1_data_1_1_dialogue_graph_acf25249d70c2184ae481df4337d4d596} 
+\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base}{Dialogue\+Base}} {\bfseries Create\+Node} (Type type, Vector2 position)
+\item 
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_graph_ab2e0d99937f243cb07e0f0e77c22308a}\label{class_dialogue_1_1_data_1_1_dialogue_graph_ab2e0d99937f243cb07e0f0e77c22308a} 
+void {\bfseries Delete\+Node} (\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base}{Dialogue\+Base}} node)
+\item 
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_graph_ad15445e682c60e9fb16001aafe75e5e9}\label{class_dialogue_1_1_data_1_1_dialogue_graph_ad15445e682c60e9fb16001aafe75e5e9} 
+\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_graph}{Dialogue\+Graph}} {\bfseries Clone} ()
+\item 
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_graph_a2b6a8f9a1fa4c5d17855c11f28b1daaf}\label{class_dialogue_1_1_data_1_1_dialogue_graph_a2b6a8f9a1fa4c5d17855c11f28b1daaf} 
+void {\bfseries Init} ()
+\item 
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_graph_a125c50f29910d883d69eb87bb79871d4}\label{class_dialogue_1_1_data_1_1_dialogue_graph_a125c50f29910d883d69eb87bb79871d4} 
+\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_person}{Dialogue\+Person}} {\bfseries Get\+Person} (string name)
+\item 
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_graph_a7671c151d4bc53ffb28e168784d1c554}\label{class_dialogue_1_1_data_1_1_dialogue_graph_a7671c151d4bc53ffb28e168784d1c554} 
+\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_question}{Dialogue\+Question}} {\bfseries Get\+Next\+Question} (\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base}{Dialogue\+Base}} node)
+\item 
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_graph_a43bb60f663eb148e02a8be047632ae6d}\label{class_dialogue_1_1_data_1_1_dialogue_graph_a43bb60f663eb148e02a8be047632ae6d} 
+\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_question}{Dialogue\+Question}} {\bfseries Get\+Question} (\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base}{Dialogue\+Base}} node)
+\item 
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_graph_abfe9536c394991abac50724880aa9235}\label{class_dialogue_1_1_data_1_1_dialogue_graph_abfe9536c394991abac50724880aa9235} 
+List$<$ \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_choice}{Dialogue\+Choice}} $>$ {\bfseries Get\+Choices} (\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_question}{Dialogue\+Question}} question)
+\item 
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_graph_aa98cb19f929147fd316fe22ed7a6862a}\label{class_dialogue_1_1_data_1_1_dialogue_graph_aa98cb19f929147fd316fe22ed7a6862a} 
+void {\bfseries Select\+Choice} (\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_question}{Dialogue\+Question}} question, \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_choice}{Dialogue\+Choice}} choice)
+\item 
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_graph_a60a18f1bf6dbad3c783e7bb8ea779aa4}\label{class_dialogue_1_1_data_1_1_dialogue_graph_a60a18f1bf6dbad3c783e7bb8ea779aa4} 
+void {\bfseries Set\+Bool} (string name, bool value)
+\item 
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_graph_a4dbb11873bd21eff11db76bda5b32206}\label{class_dialogue_1_1_data_1_1_dialogue_graph_a4dbb11873bd21eff11db76bda5b32206} 
+int {\bfseries Updates} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_graph_abffe5219b2e092e6e6e5493fb5461d31}\label{class_dialogue_1_1_data_1_1_dialogue_graph_abffe5219b2e092e6e6e5493fb5461d31} 
+\mbox{\hyperlink{class_serializable_dictionary}{Serializable\+Dictionary}}$<$ string, \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base}{Dialogue\+Base}} $>$ {\bfseries Nodes} = new()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxylink{namespace_dialogue}{Dialogue} graph data. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Dialogue/\+Data/Dialogue\+Graph.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,49 @@
+/*!
+\mainpage Node-Based Dialogue System for Unity
+
+\section intro_sec Introduction
+
+Welcome to the documentation for the Node-Based Dialogue System for Unity! This system is designed to streamline and enhance the creation of interactive dialogues in your Unity projects. Whether you are developing an RPG, a visual novel, or any game requiring complex narrative interactions, our system offers an intuitive and powerful solution.
+
+\section features_sec Features
+
+- **Intuitive Node Editor**: Create and manage dialogue trees using a visual, drag-and-drop interface.
+- **Branching Dialogues**: Easily design dialogues with multiple choices and branching paths.
+- **Event Triggering**: When question changes it generates events.
+- **Nodes grouping**: Ability to group dialogues for easier management
+- **Save and Load System**: Implement saving and loading of dialogue states for continuous gameplay.
+- **Undo/redo**: Ability to Unode or redo action for easy editing
+
+
+\section getting_started_sec Getting Started
+
+To start using the Node-Based Dialogue System in your Unity project, follow these steps:
+
+1. **Import the Package**: Add the package to your Unity project via the Package Manager.
+2. **Open the Dialogue Editor**: Navigate to `Window -> Dialogue -> Graph` to open the dialogue editor.
+3. **Create a Dialogue Tree**: Create scritable object (`Assets -> Create -> Dialogue Graph`) and use the editor to connect dialogue nodes.
+4. **Integrate with Your Game**: Attach created scritable object to the `DialogueManager`.
+
+\section usage_sec Usage
+
+\subsection creating_dialogues Creating Dialogues
+
+- **Adding Nodes**: Right-click in the dialogue editor to add new dialogue nodes.
+- **Connecting Nodes**: Drag from one node to another to create a connection, defining the flow of the conversation.
+- **Setting Node Properties**: Customize each node with character names, dialogue text, and response options.
+
+\subsection event_triggering Event Triggering
+
+- Attach custom events to dialogue nodes to trigger game mechanics.
+- Use the event system to make your dialogues interactive and immersive.
+
+\section support_sec Support
+
+For further assistance, please refer to the following resources:
+
+- **Documentation**: Detailed documentation and tutorials are available within this Doxygen documentation.
+- **Support**: If you encounter any issues of have questions, please open an issue on the [GitHub Issues](https://github.com/martis99/NodeBasedDialogueSystem/issues) page.
+- **Contributing**: Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+Thank you for using the Node-Based Dialogue System for Unity. We hope this tool helps you create compelling and engaging narratives for your games!
+*/

@@ -5,6 +5,9 @@ using System.Linq;
 
 namespace Dialogue.Data
 {
+    /// <summary>
+    /// Person node data which dialogue starts with
+    /// </summary>
     public class DialoguePerson : DialogueInteract
     {
         public List<string> Questions;

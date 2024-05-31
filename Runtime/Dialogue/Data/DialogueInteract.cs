@@ -2,6 +2,9 @@ using Dialogue.Enumerations;
 
 namespace Dialogue.Data
 {
+    /// <summary>
+    /// Interactable dialogue node data
+    /// </summary>
     public abstract class DialogueInteract : DialogueNode
     {
         public DialogueInteract() : base()

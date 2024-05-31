@@ -5,9 +5,19 @@ using System.Linq;
 
 namespace Dialogue.Data
 {
+    /// <summary>
+    /// Dialogue choice node data
+    /// </summary>
     public class DialogueChoice : DialogueInteract
     {
+        /// <summary>
+        /// List of available question when this choice is selected
+        /// </summary>
         public List<string> Questions;
+
+        /// <summary>
+        /// Choice
+        /// </summary>
         public string Text;
 
         public DialogueChoice() : base()

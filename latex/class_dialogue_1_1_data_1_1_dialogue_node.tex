@@ -1,0 +1,131 @@
+\doxysection{Dialogue.\+Data.\+Dialogue\+Node Class Reference}
+\hypertarget{class_dialogue_1_1_data_1_1_dialogue_node}{}\label{class_dialogue_1_1_data_1_1_dialogue_node}\index{Dialogue.Data.DialogueNode@{Dialogue.Data.DialogueNode}}
+
+
+Base dialogue node data class.  
+
+
+Inheritance diagram for Dialogue.\+Data.\+Dialogue\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.666667cm]{class_dialogue_1_1_data_1_1_dialogue_node}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_node_a97960de35fe18affe4999d8fa7870517}{Init}} ()
+\item 
+override \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base}{Dialogue\+Base}} \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_node_a28444d6da3226ac49456243b7d87327b}{Get\+Question}} (\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_graph}{Dialogue\+Graph}} graph)
+\begin{DoxyCompactList}\small\item\em Retrieves current question. \end{DoxyCompactList}\item 
+override int \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_node_adce40cd644c4c29df6929352bddf57db}{Updates}} (\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_graph}{Dialogue\+Graph}} graph)
+\item 
+override int \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_node_a05962d591a3790b29216a9a3141ec2c2}{Forget}} (\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_graph}{Dialogue\+Graph}} graph)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base}{Dialogue.\+Data.\+Dialogue\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base}{Dialogue\+Base}} \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base_ad69060db2ea54046ac8e7f2e65b8ff23}{Get\+Next\+Question}} (\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_graph}{Dialogue\+Graph}} graph)
+\begin{DoxyCompactList}\small\item\em Retrieves next question. \end{DoxyCompactList}\item 
+virtual List$<$ \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base}{Dialogue\+Base}} $>$ \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base_a5eb99c77446566ecd84702db4c5b4279}{Get\+Choices}} (\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_graph}{Dialogue\+Graph}} graph)
+\begin{DoxyCompactList}\small\item\em Retrieves currently available choices. \end{DoxyCompactList}\item 
+virtual bool {\bfseries Is\+Waiting} (\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_graph}{Dialogue\+Graph}} graph)
+\item 
+virtual bool {\bfseries Is\+Current} (\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_graph}{Dialogue\+Graph}} graph)
+\item 
+virtual bool {\bfseries Is\+Running} (\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_graph}{Dialogue\+Graph}} graph)
+\item 
+virtual bool {\bfseries Is\+Completed} (\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_graph}{Dialogue\+Graph}} graph)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_node_a29827f40b2a1d4210fc6cc510a9f666c}\label{class_dialogue_1_1_data_1_1_dialogue_node_a29827f40b2a1d4210fc6cc510a9f666c} 
+string {\bfseries Group\+ID}
+\begin{DoxyCompactList}\small\item\em Group ID which node belongs to. \end{DoxyCompactList}\item 
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_node_a39bd4ae5494e6453aae848dd1f5e4a63}\label{class_dialogue_1_1_data_1_1_dialogue_node_a39bd4ae5494e6453aae848dd1f5e4a63} 
+\mbox{\hyperlink{namespace_dialogue_1_1_enumerations_a59ad90cb7d1f5baa9435d3413c159e40}{Dialogue\+Node\+State}} {\bfseries State}
+\begin{DoxyCompactList}\small\item\em Initial node state. \end{DoxyCompactList}\item 
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_node_ab54fa3e7b7328dfdf5fe9c148d96db65}\label{class_dialogue_1_1_data_1_1_dialogue_node_ab54fa3e7b7328dfdf5fe9c148d96db65} 
+\mbox{\hyperlink{namespace_dialogue_1_1_enumerations_a59ad90cb7d1f5baa9435d3413c159e40}{Dialogue\+Node\+State}} {\bfseries Current\+State}
+\begin{DoxyCompactList}\small\item\em Current node state. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes inherited from \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base}{Dialogue.\+Data.\+Dialogue\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+string {\bfseries ID}
+\begin{DoxyCompactList}\small\item\em Unique node ID. \end{DoxyCompactList}\item 
+Vector2 {\bfseries Position}
+\begin{DoxyCompactList}\small\item\em Node position. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base}{Dialogue.\+Data.\+Dialogue\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+T {\bfseries Call\+Next$<$ T $>$} (\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_graph}{Dialogue\+Graph}} graph, T default\+Value, Func$<$ \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base}{Dialogue\+Base}}, T $>$ method)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Base dialogue node data class. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_node_a05962d591a3790b29216a9a3141ec2c2}\index{Dialogue.Data.DialogueNode@{Dialogue.Data.DialogueNode}!Forget@{Forget}}
+\index{Forget@{Forget}!Dialogue.Data.DialogueNode@{Dialogue.Data.DialogueNode}}
+\doxysubsubsection{\texorpdfstring{Forget()}{Forget()}}
+{\footnotesize\ttfamily \label{class_dialogue_1_1_data_1_1_dialogue_node_a05962d591a3790b29216a9a3141ec2c2} 
+override int Dialogue.\+Data.\+Dialogue\+Node.\+Forget (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_graph}{Dialogue\+Graph}}}]{graph}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base}{Dialogue.\+Data.\+Dialogue\+Base}}.
+
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_node_a28444d6da3226ac49456243b7d87327b}\index{Dialogue.Data.DialogueNode@{Dialogue.Data.DialogueNode}!GetQuestion@{GetQuestion}}
+\index{GetQuestion@{GetQuestion}!Dialogue.Data.DialogueNode@{Dialogue.Data.DialogueNode}}
+\doxysubsubsection{\texorpdfstring{GetQuestion()}{GetQuestion()}}
+{\footnotesize\ttfamily \label{class_dialogue_1_1_data_1_1_dialogue_node_a28444d6da3226ac49456243b7d87327b} 
+override \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base}{Dialogue\+Base}} Dialogue.\+Data.\+Dialogue\+Node.\+Get\+Question (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_graph}{Dialogue\+Graph}}}]{graph}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Retrieves current question. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em graph} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Question
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base_afc8fbbc7d603114cd602023877b4a901}{Dialogue.\+Data.\+Dialogue\+Base}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_question_a570a07af04e38061530c2ee298c6dbd6}{Dialogue.\+Data.\+Dialogue\+Question}}.
+
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_node_a97960de35fe18affe4999d8fa7870517}\index{Dialogue.Data.DialogueNode@{Dialogue.Data.DialogueNode}!Init@{Init}}
+\index{Init@{Init}!Dialogue.Data.DialogueNode@{Dialogue.Data.DialogueNode}}
+\doxysubsubsection{\texorpdfstring{Init()}{Init()}}
+{\footnotesize\ttfamily \label{class_dialogue_1_1_data_1_1_dialogue_node_a97960de35fe18affe4999d8fa7870517} 
+override void Dialogue.\+Data.\+Dialogue\+Node.\+Init (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base}{Dialogue.\+Data.\+Dialogue\+Base}}.
+
+\Hypertarget{class_dialogue_1_1_data_1_1_dialogue_node_adce40cd644c4c29df6929352bddf57db}\index{Dialogue.Data.DialogueNode@{Dialogue.Data.DialogueNode}!Updates@{Updates}}
+\index{Updates@{Updates}!Dialogue.Data.DialogueNode@{Dialogue.Data.DialogueNode}}
+\doxysubsubsection{\texorpdfstring{Updates()}{Updates()}}
+{\footnotesize\ttfamily \label{class_dialogue_1_1_data_1_1_dialogue_node_adce40cd644c4c29df6929352bddf57db} 
+override int Dialogue.\+Data.\+Dialogue\+Node.\+Updates (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_graph}{Dialogue\+Graph}}}]{graph}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_dialogue_1_1_data_1_1_dialogue_base}{Dialogue.\+Data.\+Dialogue\+Base}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Dialogue/\+Data/Dialogue\+Node.\+cs\end{DoxyCompactItemize}

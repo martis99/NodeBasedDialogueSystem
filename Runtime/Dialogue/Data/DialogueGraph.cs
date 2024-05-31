@@ -10,6 +10,9 @@ using UnityEngine;
 
 namespace Dialogue.Data
 {
+    /// <summary>
+    /// Dialogue graph data
+    /// </summary>
     [CreateAssetMenu()]
     public class DialogueGraph : ScriptableObject
     {

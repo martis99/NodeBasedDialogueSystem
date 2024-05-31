@@ -2,11 +2,24 @@ using Dialogue.Enumerations;
 
 namespace Dialogue.Data
 {
+    /// <summary>
+    /// Base dialogue node data class
+    /// </summary>
     public abstract class DialogueNode : DialogueBase
     {
+        /// <summary>
+        /// Group ID which node belongs to
+        /// </summary>
         public string GroupID;
+
+        /// <summary>
+        /// Initial node state
+        /// </summary>
         public DialogueNodeState State;
 
+        /// <summary>
+        /// Current node state
+        /// </summary>
         public DialogueNodeState CurrentState;
 
         public DialogueNode()
