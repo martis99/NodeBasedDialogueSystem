@@ -96,3 +96,13 @@ public class DialogueTrigger : MonoBehaviour
 ## Sequence diagram
 
 ![Sequence diagram](Sequence.png)
+
+## Class diagrams
+
+### Runtime
+
+![Runtime](Runtime.png)
+
+### Editor
+
+![Editor](Editor.png)
