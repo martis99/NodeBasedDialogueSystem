@@ -24,7 +24,8 @@ NodeBasedDialogueSystem is a Unity package designed to facilitate the creation a
 
 ## Documentation
 
-For documentation, please visit the [Documentation](https://github.com/martis99/NodeBasedDialogueSystem/blob/main/Documentation~/index.md) page.
+- For documentation, please visit the [Documentation](https://github.com/martis99/NodeBasedDialogueSystem/blob/main/Documentation~/index.md) page.
+- Doxygen available at `Documentation~/html/index.html`
 
 ## Contributing
 
