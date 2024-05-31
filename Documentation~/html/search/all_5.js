@@ -5,7 +5,7 @@ var searchData=
   ['choicebutton_2',['ChoiceButton',['../class_choice_button.html',1,'']]],
   ['choices_3',['Choices',['../class_dialogue_1_1_data_1_1_dialogue_question.html#a35705deebee439159407a5e0943f5c1c',1,'Dialogue::Data::DialogueQuestion']]],
   ['contents_4',['Table of Contents',['../md__documentation_0i_2index.html#autotoc_md4',1,'']]],
-  ['contributing_5',['Contributing',['../md__r_e_a_d_m_e.html#autotoc_md18',1,'']]],
+  ['contributing_5',['Contributing',['../md__r_e_a_d_m_e.html#autotoc_md19',1,'']]],
   ['creating_20a_20tt_20dialoguemanager_20tt_6',['Creating a &lt;tt&gt;DialogueManager&lt;/tt&gt;',['../md__documentation_0i_2index.html#autotoc_md10',1,'']]],
   ['creating_20dialogues_7',['Creating Dialogues',['../index.html#creating_dialogues',1,'']]],
   ['currentstate_8',['CurrentState',['../class_dialogue_1_1_data_1_1_dialogue_node.html#ab54fa3e7b7328dfdf5fe9c148d96db65',1,'Dialogue::Data::DialogueNode']]]

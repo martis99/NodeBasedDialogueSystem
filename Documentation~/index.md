@@ -92,3 +92,7 @@ public class DialogueTrigger : MonoBehaviour
     }
 }
 ```
+
+## Sequence diagram
+
+![Sequence diagram](Sequence.png)
